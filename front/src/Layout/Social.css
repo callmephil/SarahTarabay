@@ -1,0 +1,16 @@
+.social-icon li {
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    padding: 12px 12px;
+    color: #fff;
+    transition: .5s;
+}
+
+.social-icon li:hover,
+li:active, li:focus {
+    cursor: pointer;
+    background: #ccc;
+    color: black;
+    transition: .5s;
+}

@@ -1,0 +1,11 @@
+.copyright p {
+    font-size: 16px;
+    padding: 12px 12px;
+    color: #fff;
+    transition: .5s;
+}
+
+.background li, p {
+    color: black !important;
+    border-top: black 1px solid;
+}
