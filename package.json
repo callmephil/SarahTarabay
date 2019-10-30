@@ -1,0 +1,29 @@
+{
+  "name": "sarahtarabay",
+  "version": "1.0.0",
+  "description": "I made this project for a friend Sarah.\r It's a simple portfolio for her to display divers photos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "back": "cd back && npm start",
+    "front": "cd front && npm start",
+    "start": "concurrently --kill-others-on-fail --names \"back,front\" \"npm run back\" \"npm run front\"",
+    "postinstall":"cd front && npm install && cd .. && cd back && npm install",
+    "build-front": "cd front && npm build",
+    "build-back": "cd back && npm build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/callmephil/portfolio_sarahtarabay.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/callmephil/portfolio_sarahtarabay/issues"
+  },
+  "homepage": "https://github.com/callmephil/portfolio_sarahtarabay#readme",
+  "dependencies": {
+    "concurrently": "^5.0.0"
+  }
+}
