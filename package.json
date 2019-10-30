@@ -9,8 +9,7 @@
     "front": "cd front && npm start",
     "start": "concurrently --kill-others-on-fail --names \"back,front\" \"npm run back\" \"npm run front\"",
     "postinstall":"cd front && npm install && cd .. && cd back && npm install",
-    "build-front": "cd front && npm build",
-    "build-back": "cd back && npm build"
+    "build": "cd front && npm run-script build"
   },
   "repository": {
     "type": "git",
