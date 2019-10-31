@@ -42,6 +42,7 @@ export default function Sidebar() {
       {routes.map(el => {
         return (
           <Link
+            key={el.route}
             className={`w3-bar-item w3-button w3-center ${el.className}`}
             to={el.route}
           >

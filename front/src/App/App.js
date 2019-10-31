@@ -9,10 +9,11 @@ import Contact from "../Components/Contact";
 import Dashboard from "../Components/Dashboard";
 import Footer from "../Components/Navigation/Footer";
 
+const isDesktop = () => {
+  return window.innerWidth > 1024 ? "95%" : "100%";
+};
+
 function App() {
-  const isDesktop = () => {
-    return window.innerWidth > 1024 ? "95%" : "100%";
-  };
   return (
     <div className="w3-light-grey">
       <Router>
