@@ -15,6 +15,11 @@ import BlogPost from "../Pages/BlogPost";
 import Contacts from "../Pages/Contacts";
 import Sidebar from "../Components/Sidebar";
 
+import {
+  Switch,
+  Route,
+} from "react-router-dom";
+
 function App() {
   return (
     <React.Fragment>
@@ -28,13 +33,14 @@ function App() {
       <Navbar />
       <Sidebar />
       <div id="main">
-        {/* <Home /> */}
-        {/* <ImageGallery /> */}
-        {/* <About /> */}
-        {/* <Blog /> */}
-        {/* <BlogPost /> */}
-        {/* <Contacts /> */}
-
+        <Switch>
+          <Route exact path="/" render={() => <Home />} />
+          <Route exact path="/gallery" render={() => <ImageGallery />} />
+          <Route exact path="/about" render={() => <About />} />
+          <Route exact path="/blog" render={() => <Blog />} />
+          <Route exact path="/post/id" render={() => <BlogPost />} />
+          <Route exact path="/contacts" render={() => <Contacts />} />
+        </Switch>
         <div className="element">
           <div className="element-item"></div>
         </div>

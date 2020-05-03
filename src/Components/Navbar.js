@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
 function Navbar(props) {
   return (
@@ -12,7 +13,6 @@ function Navbar(props) {
         <i className="fal fa-megaphone"></i>
         <span>Share</span>
       </div>
-      {/* mobile nav */}
       <div className="nav-button-wrap">
         <div className="nav-button">
           <span></span>
@@ -20,30 +20,19 @@ function Navbar(props) {
           <span></span>
         </div>
       </div>
-      {/* mobile nav end*/}
-      {/*  navigation */}
       <div className="nav-holder main-menu">
         <nav>
           <ul>
             <li>
-              <a href="#" className="act-link">Home </a>
-            </li>
-            <li>
-              <a href="portfolio.html">Portfolio </a>
-            </li>
-            <li>
-              <a href="about.html">About</a>
-            </li>
-            <li>
-              <a href="blog.html">Blog</a>
-            </li>
-            <li>
-              <a href="contacts.html">Contacts</a>
+              <Link to="/">Home</Link>
+              <Link to="/gallery">Gallery</Link>
+              <Link to="/about">About</Link>
+              <Link to="/blog">Blog</Link>
+              <Link to="/contacts">Contacts</Link>
             </li>
           </ul>
         </nav>
       </div>
-      {/* navigation  end */}
     </header>
   );
 }
