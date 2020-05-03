@@ -1,9 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const MultiSlideShowWrapper = ({id, imgList}) => {
-  const ms_item = id !== 1 ? `ms_item${id}` : `ms_item`
-  const SwiperSlide = ({isKenburns, img}) => {
+const MultiSlideShowWrapper = ({ id, imgList }) => {
+  const ms_item = id !== 1 ? `ms_item${id}` : `ms_item`;
+  const SwiperSlide = ({ isKenburns, img }) => {
     const extraClass = isKenburns ? "kenburns" : "";
     return (
       <div className="swiper-slide">
@@ -41,9 +41,6 @@ function Home(props) {
         <div className="home-main_container">
           {/*follow-wrap*/}
           <div className="follow-wrap">
-            <div className="follow-wrap_title">
-              <span>Follow</span> <i className="fal fa-long-arrow-right"></i>
-            </div>
             <div className="clearfix"></div>
             <ul>
               <li>
@@ -85,9 +82,9 @@ function Home(props) {
             <div className="slide-progress"></div>
           </div>
           <div className="slider-mask"></div>
-          <MultiSlideShowWrapper id={1} imgList={[3,8,1]} />
-          <MultiSlideShowWrapper id={2} imgList={[15,6,13]} />
-          <MultiSlideShowWrapper id={3} imgList={[16,9,10]} />
+          <MultiSlideShowWrapper id={1} imgList={[3, 8, 1]} />
+          <MultiSlideShowWrapper id={2} imgList={[15, 6, 13]} />
+          <MultiSlideShowWrapper id={3} imgList={[16, 9, 10]} />
         </div>
       </div>
       <div className="share-wrapper">

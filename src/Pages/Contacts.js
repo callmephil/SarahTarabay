@@ -31,9 +31,8 @@ function Contacts(props) {
                 <div className="scroll-nav-wrap">
                     <nav className="scroll-nav scroll-init">
                         <ul>
-                            <li><a className="act-scrlink" href="#sec1">Details</a></li>
-                            <li><a href="#sec2">Location</a></li>
-                            <li><a href="#sec3">Say Hello</a></li>
+                            <li><a href="#sec1">Say Hello</a></li>
+                            <li><a className="act-scrlink" href="#sec2">Details</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -56,40 +55,20 @@ function Contacts(props) {
                                         <li><span>Phone :</span><a href="#">+7(111)123456789</a> , <a href="#">+8(222)987654321</a></li>
                                     </ul>
                                 </div>
-                                <a href="#sec3" className="custom-scroll-link btn fl-btn">Say Hello</a>
+                                <a href="#sec2" className="custom-scroll-link btn fl-btn">Say Hello</a>
                             </div>
                         </div>
                     </div>
                 </section>
-                {/*section end  */}							
-                <div className="sec-dec"></div>
-                {/*section   */}							
-                <section id="sec2">
-                    <div className="container small-container">
-                        <div className="section-title fl-wrap">
-                            <h3>Studio Location</h3>
-                            <h4>Sed tempor iaculis massa faucibus feugiat. In fermentum facilisis massa</h4>
-                            <div className="section-number">02.</div>
-                        </div>
-                        <div className="column-wrapper_item fl-wrap">
-                            <div className="column-wrapper_text fl-wrap">
-                                <div className="map-container">
-                                    <div id="singleMap" data-latitude="40.7427837" data-longitude="-73.11445617675781"></div>
-                                </div>
-                                <p>Praesent nec leo venenatis elit semper aliquet id ac enim. Maecenas nec mi leo. Etiam venenatis ut dui non hendrerit. Integer dictum, diam vitae blandit accumsan, dolor odio tempus arcu, vel ultrices nisi nibh vitae ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi varius lacinia vestibulum. Aliquam lobortis facilisis tellus, in facilisis ex vehicula ac. In malesuada quis turpis vel viverra.</p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                {/*section end  */}							
+                {/*section end  */}								
                 <div className="sec-dec"></div>
                 {/*section */}							
-                <section id="sec3">
+                <section id="sec2">
                     <div className="container small-container">
                         <div className="section-title fl-wrap">
                             <h3>Get In Touch</h3>
                             <h4>Sed tempor iaculis massa faucibus feugiat. In fermentum facilisis massa</h4>
-                            <div className="section-number">03.</div>
+                            <div className="section-number">02.</div>
                         </div>
                         <div className="column-wrapper_item fl-wrap">
                             <div className="column-wrapper_text fl-wrap">

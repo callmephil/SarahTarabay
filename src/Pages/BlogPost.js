@@ -50,7 +50,7 @@ function BlogPost(props) {
                   <a href="blog-single.html" className="rn">
                     <span>
                       Next <strong>- Post Title</strong>
-                    </span>{" "}
+                    </span>
                     <i className="fal fa-long-arrow-right"></i>
                   </a>
                   <div className="content-nav_mediatooltip cnmd_rightside">
@@ -84,7 +84,6 @@ function BlogPost(props) {
                   <li>
                     <a href="#">
                       <span className="author_avatar">
-                        {" "}
                         <img alt="" src="/Assets/images/avatar/1.jpg" width="50" height="50" />
                       </span>
                       Jane Kowalski
@@ -99,19 +98,25 @@ function BlogPost(props) {
                         <div className="swiper-wrapper lightgallery">
                           <div className="swiper-slide hov_zoom">
                             <img src="/Assets/images/folio/4.jpg" alt="" />
-                            <a href="/Assets/images/folio/4.jpg" className="box-media-zoom   popup-image">
+                            <a
+                              href="/Assets/images/folio/4.jpg"
+                              className="box-media-zoom   popup-image">
                               <i className="fal fa-search"></i>
                             </a>
                           </div>
                           <div className="swiper-slide hov_zoom">
                             <img src="/Assets/images/folio/5.jpg" alt="" />
-                            <a href="/Assets/images/folio/5.jpg" className="box-media-zoom   popup-image">
+                            <a
+                              href="/Assets/images/folio/5.jpg"
+                              className="box-media-zoom   popup-image">
                               <i className="fal fa-search"></i>
                             </a>
                           </div>
                           <div className="swiper-slide hov_zoom">
                             <img src="/Assets/images/folio/6.jpg" alt="" />
-                            <a href="/Assets/images/folio/6.jpg" className="box-media-zoom   popup-image">
+                            <a
+                              href="/Assets/images/folio/6.jpg"
+                              className="box-media-zoom   popup-image">
                               <i className="fal fa-search"></i>
                             </a>
                           </div>
@@ -155,12 +160,11 @@ function BlogPost(props) {
                   </p>
                   <blockquote>
                     <p>
-                      {" "}
                       Cras lacinia magna vel molestie faucibus. Donec auctor et urnaLorem ipsum
                       dolor sit amet, consectetur adipiscing elit. Cras lacinia magna vel molestie
                       faucibus.Cras lacinia magna vel molestie faucibus. Donec auctor et urnaLorem
                       ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia magna vel
-                      molestie faucibus.Cras lacinia magna vel molestie faucibus.{" "}
+                      molestie faucibus.Cras lacinia magna vel molestie faucibus.
                     </p>
                   </blockquote>
                   <p>
@@ -177,141 +181,6 @@ function BlogPost(props) {
                     Quisque varius eros ac purus dignissim.
                   </p>
                 </div>
-                {/* post-author*/}
-                <div className="post-author fl-wrap">
-                  <div className="author-img">
-                    <img src="/Assets/images/avatar/1.jpg" alt="" />
-                  </div>
-                  <div className="author-content">
-                    <h5>
-                      <a href="#">Jane Kowalski</a>
-                    </h5>
-                    <p>
-                      At one extremity the rope was unstranded, and the separate spread yarns were
-                      all braided and woven round the socket of the harpoon; the pole was then
-                      driven hard up into the socket; from the lower end the rope was traced
-                      half-way along the pole’s length, and firmly secured so, with intertwistings
-                      of twine.
-                    </p>
-                    <div className="author-social">
-                      <ul>
-                        <li>
-                          <a href="#" target="_blank">
-                            <i className="fab fa-facebook-f"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#" target="_blank">
-                            <i className="fab fa-instagram"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#" target="_blank">
-                            <i className="fab fa-twitter"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#" target="_blank">
-                            <i className="fab fa-vk"></i>
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                {/*post-author end*/}
-                <div id="comments" className="single-post-comm fl-wrap">
-                  {/*title*/}
-                  <h6 id="comments-title">
-                    Comments<span>( 2 )</span>
-                  </h6>
-                  <ul className="commentlist clearafix">
-                    <li className="comment">
-                      <div className="comment-body">
-                        <div className="comment-author">
-                          <img alt="" src="/Assets/images/avatar/1.jpg" width="50" height="50" />
-                        </div>
-                        <cite className="fn">
-                          <a href="#">Kevin</a>
-                        </cite>
-                        <div className="comment-meta">
-                          <h6>
-                            <a href="#">January 02, 2014 at 07:39 am</a> /{" "}
-                            <a className="comment-reply-link" href="#">
-                              Reply
-                            </a>
-                          </h6>
-                        </div>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus
-                          hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel,
-                          dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet
-                          viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh.
-                          Nullam mollis. Ut justo.
-                        </p>
-                      </div>
-                    </li>
-                    <li className="comment">
-                      {/*comment body*/}
-                      <div className="comment-body">
-                        <div className="comment-author">
-                          <img alt="" src="/Assets/images/avatar/2.jpg" width="50" height="50" />
-                        </div>
-                        <cite className="fn">
-                          <a href="#">Andy</a>
-                        </cite>
-                        <div className="comment-meta">
-                          <h6>
-                            <a href="#">January 22, 2014 at 03:19 am</a> /{" "}
-                            <a className="comment-reply-link" href="#">
-                              Reply
-                            </a>
-                          </h6>
-                        </div>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus
-                          hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel,
-                          dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet
-                          viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh.
-                          Nullam mollis. Ut justo.
-                        </p>
-                      </div>
-                    </li>
-                  </ul>
-                  <div className="clearfix"></div>
-                  <div id="respond" className="clearafix">
-                    <h6 id="reply-title">Leave A Review</h6>
-                    <form className="custom-form " name="commentform">
-                      <fieldset>
-                        <input
-                          type="text"
-                          name="name"
-                          id="name2"
-                          placeholder="Your Name *"
-                          value=""
-                        />
-                        <input
-                          type="text"
-                          name="email"
-                          id="email2"
-                          placeholder="Email Address *"
-                          value=""
-                        />
-                        <textarea
-                          name="comments"
-                          id="comments2"
-                          cols={40}
-                          rows={3}
-                          placeholder="Your Message:"></textarea>
-                        <button className="btn float-btn" id="submit">
-                          Add Comment{" "}
-                        </button>
-                      </fieldset>
-                    </form>
-                  </div>
-                  {/*end respond*/}
-                </div>
-                {/*comments end */}
               </div>
               {/* post end*/}
             </div>
