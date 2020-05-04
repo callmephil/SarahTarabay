@@ -35,11 +35,8 @@ const MultiSlideShowWrapper = ({ id, imgList }) => {
 function Home(props) {
   return (
     <div id="wrapper">
-      {/*content */}
       <div className="content full-height">
-        {/*home-main_container*/}
         <div className="home-main_container">
-          {/*follow-wrap*/}
           <div className="follow-wrap">
             <div className="clearfix"></div>
             <ul>

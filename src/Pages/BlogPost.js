@@ -5,21 +5,15 @@ import PageSideHeader from "./Components/PageSideHeader";
 function BlogPost(props) {
   return (
     <div id="wrapper">
-      {/* content */}
       <div className="content">
-        {/* column-image  */}
         <PageSideHeader
           image={"/Assets/images/bg/20.jpg"}
           title={"My Stories"}
           description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in pulvinar neque.
               Nulla finibus lobortis pulvinar.`}
         />
-        {/* column-image end  */}
-        {/* column-wrapper */}
         <div className="column-wrapper single-content-section">
-          {/*fixed-bottom-content */}
           <div className="fixed-bottom-content">
-            {/* pagination   */}
             <div className="content-nav-fixed">
               <ul>
                 <li>
@@ -47,11 +41,8 @@ function BlogPost(props) {
               </ul>
             </div>
           </div>
-          {/*fixed-bottom-content end  */}
-          {/*section  */}
           <section className="single-content-section">
             <div className="container small-container">
-              {/* post */}
               <div className="post fl-wrap fw-post single-post ">
                 <h2>
                   <span>Blog post title</span>
@@ -77,7 +68,6 @@ function BlogPost(props) {
                     </a>
                   </li>
                 </ul>
-                {/* blog media */}
                 <div className="blog-media fl-wrap">
                   <div className="single-slider-wrap">
                     <div className="single-slider fl-wrap">
@@ -121,7 +111,6 @@ function BlogPost(props) {
                     </div>
                   </div>
                 </div>
-                {/* blog media end */}
                 <div className="blog-text fl-wrap">
                   <div className="pr-tags fl-wrap">
                     <span>Tags : </span>
@@ -169,35 +158,25 @@ function BlogPost(props) {
                   </p>
                 </div>
               </div>
-              {/* post end*/}
             </div>
           </section>
-          {/*section end  */}
-          {/*footer */}
           <footer className="min-footer fl-wrap content-animvisible">
             <div className="container small-container">
               <div className="footer-inner fl-wrap">
-                {/* policy-box*/}
                 <div className="policy-box">
                   <span>&#169; Kotlis 2019 / All rights reserved. </span>
                 </div>
-                {/* policy-box end*/}
                 <a href="#" className="to-top-btn to-top">
                   Back to top <i className="fal fa-long-arrow-up"></i>
                 </a>
               </div>
             </div>
           </footer>
-          {/*footer end  */}
         </div>
-        {/* column-wrapper */}
       </div>
-      {/*content end*/}
-      {/*share-wrapper*/}
       <div className="share-wrapper">
         <div className="share-container fl-wrap  isShare"></div>
       </div>
-      {/*share-wrapper end*/}
     </div>
   );
 }

@@ -179,11 +179,9 @@ function ImageGallery(props) {
           </div>
         </div>
       </div>
-      {/*share-wrapper*/}
       <div className="share-wrapper">
         <div className="share-container fl-wrap  isShare"></div>
       </div>
-      {/*share-wrapper end*/}
     </div>
   );
 }
