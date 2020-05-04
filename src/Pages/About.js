@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import PageSideHeader from "./Components/PageSideHeader";
 
 function About(props) {
   return (
@@ -7,26 +8,12 @@ function About(props) {
       {/* content */}
       <div className="content">
         {/* column-image  */}
-        <div className="column-image">
-          <div className="bg" data-bg="/Assets/images/bg/19.jpg"></div>
-          <div className="overlay"></div>
-          <div className="column-title">
-            <h2>About Me</h2>
-            <h3>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in pulvinar neque.
-              Nulla finibus lobortis pulvinar.
-            </h3>
-          </div>
-          <div className="column-notifer">
-            <div className="scroll-down-wrap transparent_sdw">
-              <div className="mousey">
-                <div className="scroller"></div>
-              </div>
-              <span>Scroll down to Discover</span>
-            </div>
-          </div>
-          <div className="fixed-column-dec"></div>
-        </div>
+        <PageSideHeader
+          image={"/Assets/images/bg/19.jpg"}
+          title={"About Me"}
+          description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in pulvinar neque.
+              Nulla finibus lobortis pulvinar.`}
+        />
         {/* column-image end  */}
         {/* column-wrapper */}
         <div className="column-wrapper">

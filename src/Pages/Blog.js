@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
+import PageSideHeader from "./Components/PageSideHeader";
 
 const BlogCard = ({id, title, date, image, tags, description}) => {
   description = `Vestibulum orci felis, ullamcorper non condimentum non, ultrices ac nunc. Mauris
@@ -52,26 +53,12 @@ function Blog(props) {
       {/* content */}
       <div className="content">
         {/* column-image  */}
-        <div className="column-image">
-          <div className="bg" data-bg="/Assets/images/bg/22.jpg"></div>
-          <div className="overlay"></div>
-          <div className="column-title">
-            <h2>My Stories</h2>
-            <h3>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in pulvinar neque.
-              Nulla finibus lobortis pulvinar.
-            </h3>
-          </div>
-          <div className="column-notifer">
-            <div className="scroll-down-wrap transparent_sdw">
-              <div className="mousey">
-                <div className="scroller"></div>
-              </div>
-              <span>Scroll down to Discover</span>
-            </div>
-          </div>
-          <div className="fixed-column-dec"></div>
-        </div>
+        <PageSideHeader
+          image={"/Assets/images/bg/22.jpg"}
+          title={"My Stories"}
+          description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in pulvinar neque.
+              Nulla finibus lobortis pulvinar.`}
+        />
         {/* column-image end  */}
         {/* column-wrapper */}
         <div className="column-wrapper  single-content-section">
