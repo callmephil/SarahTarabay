@@ -37,31 +37,6 @@ function Home(props) {
     <div id="wrapper">
       <div className="content full-height">
         <div className="home-main_container">
-          <div className="follow-wrap">
-            <div className="clearfix"></div>
-            <ul>
-              <li>
-                <a href="#" target="_blank">
-                  <i className="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#" target="_blank">
-                  <i className="fab fa-instagram"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#" target="_blank">
-                  <i className="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#" target="_blank">
-                  <i className="fab fa-vk"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
           <div className="home-main_title">
             <div className="home-main_title_item">
               <h4>Photographer and director based in New York</h4>
